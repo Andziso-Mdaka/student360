@@ -56,8 +56,9 @@ export default function App() {
       <Centered>
         <div className="callout crit">
           <b>Database not configured</b>
-          Copy <span className="mono">.env.example</span> to <span className="mono">.env.local</span>, add your Supabase URL and anon key, then restart{' '}
-          <span className="mono">npm run dev</span>.
+          The app was built without <span className="mono">VITE_SUPABASE_URL</span> and <span className="mono">VITE_SUPABASE_ANON_KEY</span>. Locally,
+          put them in <span className="mono">.env.local</span> and restart <span className="mono">npm run dev</span>. On Vercel, add them under
+          Settings → Environment Variables, then redeploy.
         </div>
       </Centered>
     );
