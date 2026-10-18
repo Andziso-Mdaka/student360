@@ -5,7 +5,7 @@ import { useStore } from '../data/store';
 const DEMO_PASSWORD = 'Student360-demo!';
 const DEMO_ACCOUNTS = [
   { email: 'thandi.officer@example.com', label: 'Thandi Mokoena', role: 'Case officer' },
-  { email: 'anika.manager@example.com', label: 'Anika van Wyk', role: 'Manager' },
+  { email: 'kagisho.manager@example.com', label: 'Kagisho Mamabolo', role: 'Manager' },
   { email: 'ayanda.admin@example.com', label: 'Ayanda Dlamini', role: 'Administrator' },
 ];
 

@@ -18,11 +18,11 @@ npm run build        # production build in dist/
 ```
 
 Demo accounts (password `Student360-demo!`, also one-click on the sign-in page):
-`thandi.officer@example.com` · `lebo.officer@example.com` · `sipho.officer@example.com` · `anika.manager@example.com` · `ayanda.admin@example.com`
+`thandi.officer@example.com` · `lebo.officer@example.com` · `sipho.officer@example.com` · `kagisho.manager@example.com` · `ayanda.admin@example.com`
 
 ## Demo journeys (from the pitch deck)
 1. **Case officer** (Thandi / Lebo / Sipho): Students → search → open record → *Reveal* ID with a stated purpose (60 s, logged) → *Open a case* with follow-up date. "Cases" shows only your own work, overdue first.
-2. **Manager** (Anika): Operations overview → filter by institution → priority queue of overdue cases → reassign a case → Reports → export an aggregate CSV.
+2. **Manager** (Kagisho): Operations overview → filter by institution → priority queue of overdue cases → reassign a case → Reports → export an aggregate CSV.
 3. **Administrator** (Ayanda): Import data → *Try the sample file* → see validation errors, in-file duplicates, dropped columns → import valid rows → Audit log → *Verify chain* (try *Simulate someone editing entry #2* first).
 
 ## What Excel can't do (the differentiators)

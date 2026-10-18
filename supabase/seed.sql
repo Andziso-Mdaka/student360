@@ -3,7 +3,7 @@
 --   thandi.officer@example.com  (officer)
 --   lebo.officer@example.com  (officer)
 --   sipho.officer@example.com  (officer)
---   anika.manager@example.com  (manager)
+--   kagisho.manager@example.com  (manager)
 --   ayanda.admin@example.com  (admin)
 
 begin;
@@ -45,12 +45,12 @@ insert into public.profiles (id, full_name, role) values ('00000000-0000-4000-a0
 
 insert into auth.users (instance_id, id, aud, role, email, encrypted_password, email_confirmed_at,
   raw_app_meta_data, raw_user_meta_data, created_at, updated_at, confirmation_token, recovery_token, email_change_token_new, email_change)
-values ('00000000-0000-0000-0000-000000000000', '00000000-0000-4000-a000-000000000004', 'authenticated', 'authenticated', 'anika.manager@example.com',
+values ('00000000-0000-0000-0000-000000000000', '00000000-0000-4000-a000-000000000004', 'authenticated', 'authenticated', 'kagisho.manager@example.com',
   extensions.crypt('Student360-demo!', extensions.gen_salt('bf')), now(),
-  '{"provider":"email","providers":["email"]}', '{"full_name":"Anika van Wyk"}', now(), now(), '', '', '', '');
+  '{"provider":"email","providers":["email"]}', '{"full_name":"Kagisho Mamabolo"}', now(), now(), '', '', '', '');
 insert into auth.identities (id, user_id, provider_id, identity_data, provider, last_sign_in_at, created_at, updated_at)
-values (gen_random_uuid(), '00000000-0000-4000-a000-000000000004', '00000000-0000-4000-a000-000000000004', '{"sub":"00000000-0000-4000-a000-000000000004","email":"anika.manager@example.com","email_verified":true}', 'email', now(), now(), now());
-insert into public.profiles (id, full_name, role) values ('00000000-0000-4000-a000-000000000004', 'Anika van Wyk', 'manager');
+values (gen_random_uuid(), '00000000-0000-4000-a000-000000000004', '00000000-0000-4000-a000-000000000004', '{"sub":"00000000-0000-4000-a000-000000000004","email":"kagisho.manager@example.com","email_verified":true}', 'email', now(), now(), now());
+insert into public.profiles (id, full_name, role) values ('00000000-0000-4000-a000-000000000004', 'Kagisho Mamabolo', 'manager');
 
 insert into auth.users (instance_id, id, aud, role, email, encrypted_password, email_confirmed_at,
   raw_app_meta_data, raw_user_meta_data, created_at, updated_at, confirmation_token, recovery_token, email_change_token_new, email_change)

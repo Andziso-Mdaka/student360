@@ -7,7 +7,7 @@ export const USERS: User[] = [
   { id: 'u1', name: 'Thandi Mokoena', role: 'officer' },
   { id: 'u2', name: 'Lebo Naidoo', role: 'officer' },
   { id: 'u3', name: 'Sipho Khumalo', role: 'officer' },
-  { id: 'u4', name: 'Anika van Wyk', role: 'manager' },
+  { id: 'u4', name: 'Kagisho Mamabolo', role: 'manager' },
   { id: 'u5', name: 'Ayanda Dlamini', role: 'admin' },
 ];
 export const OFFICERS = USERS.filter((u) => u.role === 'officer');
